@@ -1,9 +1,65 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "categories": [
+    { "id": 1,
+
+      "name": "Gambia",
+
+      "display_name": "Smiling Coast",
+
+      "description": "A country in West Africa"
+    },
+
+    { "id": 2,
+
+      "name": "Manchester United",
+
+      "display_name": "Red Devils",
+
+      "description": "favorite soccer team"
+    },
+
+    { "id": 3,
+
+      "name": "Movies",
+
+      "display_name": "Beautiful Minds",
+
+      "description": "Best movie"
+    },
+
+    { "id": 4,
+
+      "name": "Wife",
+
+      "display_name": "Kay Jay",
+
+      "description": "Queen"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+
+  "products": [
+    { "id": 1,
+
+      "category": "Electronics",
+
+      "name": "Go Pro",
+
+      "display_name": "Camera",
+
+      "description": "Used for photos and videos" }
   ],
-  "profile": { "name": "typicode" }
+
+  "products": [
+    { "id": 2,
+
+      "category": "Books",
+
+      "name": "Habits",
+
+      "display_name": "Self Development",
+
+      "description": "A book about conforming habits" }
+  ]
+
 }
+

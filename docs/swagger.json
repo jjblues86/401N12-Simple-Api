@@ -1,0 +1,70 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is a code fellows lab-06 assignment. I am building a simple api project.",
+    "version": "1.0.0",
+    "title": ""
+  },
+  "paths": {
+    "/categories": {
+      "get": {
+        "description": "401N12-Simple-Api",
+        "responses": {
+          "200": {
+            "description": "This is a category object",
+            "schema": {
+              "$ref": "#definitions/categories"
+            }
+          }
+        }
+      }
+    },
+    "": {
+      "parameters": [
+        {
+          "in": "body",
+          "name": "body",
+          "required": true,
+          "type": "object"
+        }
+      ],
+      "": {
+        "description": "401N12-Simple-Api",
+        "responses": {
+          "200": {
+            "description": "This is a products object",
+            "schema": {
+              "$ref": "#/definitions/products"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "getAll": {
+      "type": "object",
+      "items": {
+        "type": "object",
+        "properties": {}
+      },
+      "example": [
+        {"name": "Category 1", "id": 1},
+        {"name": "Category 2", "id": 2}
+      ]
+    },
+    "getOne": {
+      "type": "object",
+      "items": {
+        "type": "object",
+        "properties": {}
+      },
+      "example": {"name": "Category Name", "id": 1}
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ]
+}
