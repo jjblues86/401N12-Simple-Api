@@ -5,10 +5,10 @@
 ## AUTHOR - Jerome Joof
 
 ## LINKS AND RESOURCES
-** Repo()
+* Repo()
 
 ## DESCRIPTION
 Created a Json API server with the help of swagger
 
 ## TESTS
-** httpie - this enable you to run the file db.json which has the json API objects in the command line.
+* httpie - this enable you to run the file db.json which has the json API objects in the command line.
