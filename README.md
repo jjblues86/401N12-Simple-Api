@@ -5,7 +5,7 @@
 ## AUTHOR - Jerome Joof
 
 ## LINKS AND RESOURCES
-* Repo()
+* Repo(https://github.com/jjblues86/401N12-Simple-Api.git)
 
 ## DESCRIPTION
 Created a Json API server with the help of swagger
